@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เชิญร่วมงานแต่ง - วิษณุ & พัชชาการ</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+/* ใช้ Font จาก Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* กำหนดพื้นฐานสำหรับ body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* กำหนดลักษณะของ header */
+header {
+    background-color: #f44336;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* ชื่อหัวเรื่องใน header */
+header h1 {
+    font-size: 3.5em;
+    letter-spacing: 2px;
+}
+
+/* คำอธิบายใต้ header */
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* เมนูนำทาง (nav) */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ลิงค์ในเมนู */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* เมื่อเมาส์ไปที่ลิงค์ในเมนู */
+nav a:hover {
+    background-color: #f44336;
+    border-radius: 5px;
+}
+
+/* ส่วนของแบนเนอร์ (hero) */
+.hero {
+    background-image: url('https://www.example.com/wedding-banner.jpg'); /* เปลี่ยน URL รูปภาพ */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+/* ข้อความในแบนเนอร์ */
+.hero h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+/* ส่วนของรายละเอียดงาน */
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/* กำหนดรูปแบบของแต่ละรายละเอียด */
+.details {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* ข้อความภายในรายละเอียด */
+.details p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* ชื่อหัวข้อในรายละเอียด */
+.details h3 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ข้อความใน footer */
+footer p {
+    font-size: 1.2em;
+}
+
+/* ข้อความติดต่อใน footer */
+footer .contact a {
+    color: #f44336;
+    text-decoration: none;
+}
+
+footer .contact a:hover {
+    text-decoration: underline;
+}
+
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e4aad5;
+            color: #333;
+        }
+
+        header {
+            background-color: #37bee8;
+            color: pink;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #e676c5;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            font-weight: 700;
+        }
+
+        nav a:hover {
+            background-color: #fe1d93;
+        }
+
+        .hero {
+            background-image: url('https://www.example.com/wedding-banner.jpg'); /* ใส่ URL รูปภาพงานแต่ง */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: pink;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .hero h2 {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px 40px;
+            border-radius: 10px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        .details {
+            text-align: center;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .details p {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        .details h3 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            font-size: 1.2em;
+        }
+
+        footer .contact a {
+            color: #f44336;
+            text-decoration: none;
+        }
+
+        footer .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>งานแต่งงาน</h1>
+        <p>นาย วิษณุ แซ่เอี๊ยว & พัชชาการ เพชรอาวุธ</p>
+    </header>
+
+    <nav>
+        <a href="#home">หน้าแรก</a>
+        <a href="#details">รายละเอียดงาน</a>
+        <a href="#contact">ติดต่อเรา</a>
+    </nav>
+
+    <section class="hero">
+        <h2>ร่วมยินดีในวันที่พิเศษ</h2>
+    </section>
+
+    <section id="details">
+        <h2 class="section-title">รายละเอียดงานแต่งงาน</h2>
+        <div class="details">
+            <h3>วันที่และเวลา</h3>
+            <p>วันเสาร์ที่ 25 ธันวาคม 2567</p>
+            <p>เวลา 16:00 น.</p>
+
+            <h3>สถานที่จัดงาน</h3>
+            <p>โรงแรม ตึกใบหยก, กรุงเทพฯ</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 งานแต่งงานของ วิษณุ & พัชชาการ</p>
+        <div class="contact">
+            <p>ติดต่อเรา: <a href="tel:+669xxxxxxx">09xxxxxxxx</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
